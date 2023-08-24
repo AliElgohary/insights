@@ -9,6 +9,7 @@ const InsightStyle = styled.div`
   flex-shrink: 0;
   border-radius: 16px;
   box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.1);
+  margin: 100px 0px;
 `;
 function InsightsAI() {
   return (

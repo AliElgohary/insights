@@ -3,9 +3,9 @@ import styled from "styled-components";
 const Header = styled.header`
   display: flex;
   justify-content: space-between;
-  
   color: black;
   font-size: large;
+  background-color: #F9FAFB;
 `;
 
 const SmallButtons = styled.button`
@@ -19,6 +19,7 @@ const SmallButtons = styled.button`
   font-weight: 700;
   line-height: normal;
   margin: 5px;
+  border-radius: 17px;
 `;
 
 const ButtonContainer = styled.div`

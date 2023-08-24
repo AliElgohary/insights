@@ -5,10 +5,8 @@ import InsightsAI from "./ui/Insghits/ZeeToolsInsgts";
 import Chart from "./ui/InsightChart/Chart";
 
 const AppWrapper = styled.div`
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  background: #red;
+  background-color: #F9FAFB;
+  margin: 30px 80px;
 `;
 
 function App() {

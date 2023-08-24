@@ -2,10 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 body {
-    margin: 30px;
-    padding: 0;
-    font-family: Karla;
-    background-color: #f4f4f4;
+    background-color: #F9FAFB;
 }
 button {
     font-family: Karla;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import DownArrow from "../SVG/DownSVG";
+import PropTypes from 'prop-types';
 
 const SpanHeader = styled.span`
   color: #000;
@@ -34,22 +34,29 @@ const Container = styled.div`
   
 `;
 
-function InsigtsBodyComponent() {
+function InsigtsBodyComponent(props) {
+  console.log(props);
   return (
     <Container>
       <LayOut>
-        <DownArrow />
+        {props.arrow}
         <SpanHeader>
-          Signups are slowing down. -5% new than last week
+          {props.header}
         </SpanHeader>
       </LayOut>
       <Paragraph>
         Tip: Promote more your product online, and make sure to drive as much
-        traffic as possible to the signup form. Here is a article on user
+        traffic as possible to the signup form. Here is an article on user
         acquisition
       </Paragraph>
     </Container>
   );
 }
+
+InsigtsBodyComponent.propTypes = {
+  arrow: PropTypes.element.isRequired,
+  header: PropTypes.string.isRequired,
+};
+
 
 export default InsigtsBodyComponent;
