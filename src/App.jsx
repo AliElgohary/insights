@@ -3,6 +3,9 @@ import GlobalStyles from "./styles/GlobalStyles";
 import Heading from "./ui/Header/Heading";
 import InsightsAI from "./ui/Insghits/ZeeToolsInsgts";
 import Chart from "./ui/InsightChart/Chart";
+import Table from "./ui/Tables/Tables";
+
+
 
 const AppWrapper = styled.div`
   background-color: #F9FAFB;
@@ -16,6 +19,7 @@ function App() {
       <Heading />
       <Chart />
       <InsightsAI />
+      <Table />
     </AppWrapper>
   );
 }

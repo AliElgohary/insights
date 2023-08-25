@@ -5,7 +5,7 @@ const Container = styled.div`
   border-radius: 16px;
   background: #fff;
   box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.1);
-  margin: 100px 30px;
+  margin: 50px 30px;
 `;
 
 function Chart() {
